@@ -1,0 +1,5 @@
+@include('layouts.dashboard.include.head')
+@include('layouts.dashboard.include.sidebar')
+@include('layouts.dashboard.include.navbar')
+@yield('content')
+@include('layouts.dashboard.include.script')
